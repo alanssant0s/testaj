@@ -1,0 +1,220 @@
+2023-10-21 22:00:30 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Plans = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:48:02 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Processes = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:48:06 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Users = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:48:23 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Plans = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:48:52 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Judges = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:49:06 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Districts = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:49:14 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Cities = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:49:19 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $States = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 14:49:32 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $AirlineCompanies = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 19:50:26 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Processes = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+
+2023-11-11 19:53:21 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Natures = null;` to your class definition.
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/functions.php, line 300
+/Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /Applications/MAMP/htdocs/aerojuris/bin/cake.php, line 12
+[main]
+

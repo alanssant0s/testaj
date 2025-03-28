@@ -1,0 +1,171 @@
+2023-11-11 14:48:00 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.process' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 160
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php:115
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.process' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:413
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:416
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:158
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php:115
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 19:50:23 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.process' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 160
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php:115
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.process' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:413
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:416
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:158
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/AllCommand.php:115
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 20:11:25 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.case' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 160
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'aero_juris.case' doesn't exist in /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:413
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Connection.php:416
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:158
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:528
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:111
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 20:45:47 error: [ParseError] syntax error, unexpected 'Case' (T_CASE), expecting identifier (T_STRING) in /Applications/MAMP/htdocs/aerojuris/src/Model/Entity/Case.php on line 17
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- [internal]:??
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:748
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:697
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:163
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:112
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 20:45:54 error: [ParseError] syntax error, unexpected 'Case' (T_CASE), expecting identifier (T_STRING) in /Applications/MAMP/htdocs/aerojuris/src/Model/Entity/Case.php on line 17
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- [internal]:??
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:748
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:697
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:163
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:112
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 20:46:00 error: [ParseError] syntax error, unexpected 'Case' (T_CASE), expecting identifier (T_STRING) in /Applications/MAMP/htdocs/aerojuris/src/Model/Entity/Case.php on line 17
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- [internal]:??
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:748
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:697
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:163
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:112
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 20:47:44 error: [ParseError] syntax error, unexpected 'Case' (T_CASE), expecting identifier (T_STRING) in /Applications/MAMP/htdocs/aerojuris/src/Model/Entity/Case.php on line 17
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- [internal]:??
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:748
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:697
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:163
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:112
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+
+2023-11-11 21:22:18 error: [ParseError] syntax error, unexpected 'Case' (T_CASE), expecting identifier (T_STRING) in /Applications/MAMP/htdocs/aerojuris/src/Model/Entity/Case.php on line 17
+Stack Trace:
+- /Applications/MAMP/htdocs/aerojuris/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- [internal]:??
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/ORM/Table.php:748
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:697
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:163
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:112
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/bake/src/Command/ModelCommand.php:94
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/BaseCommand.php:190
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Applications/MAMP/htdocs/aerojuris/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Applications/MAMP/htdocs/aerojuris/bin/cake.php:12
+- [main]:
+

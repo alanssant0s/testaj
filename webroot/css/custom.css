@@ -1,0 +1,232 @@
+.input-error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #f06548;
+}
+
+.form-check-input {
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.event-normal, .event-normal:hover, .event-normal:active, .event-normal:focus{
+    background-color: #09ff00;
+}
+
+.event-allday, .event-allday:hover, .event-allday:active, .event-allday:focus{
+    background-color: #09ff00;
+}
+
+.event-private, .event-private:hover, .event-private:active, .event-private:focus{
+    background-color: #4b4b4b;
+}
+
+.action-late, .action-late:hover, .action-late:active, .action-late:focus{
+    background-color: #f31414;
+}
+
+.action-inprogress, .action-inprogress:hover, .action-inprogress:active, .action-inprogress:focus{
+    background-color: #f31414;
+}
+
+.action-completed, .action-completed:hover, .action-completed:active, .action-completed:focus{
+    background-color: #f31414;
+}
+
+.schedule-canceled, .schedule-canceled:hover, .schedule-canceled:active, .schedule-canceled:focus{
+    background-color: #ffd000;
+}
+
+.schedule-executed, .schedule-executed:hover, .schedule-executed:active, .schedule-executed:focus{
+    background-color: #ffd000;
+}
+
+.schedule-scheduled, .schedule-scheduled:hover, .schedule-scheduled:active, .schedule-scheduled:focus{
+    background-color: #ffd000;
+}
+
+.schedule-notexecuted, .schedule-notexecuted:hover, .schedule-notexecuted:active, .schedule-notexecuted:focus{
+    background-color: #ffd000;
+}
+
+.ticket-open, .ticket-open:hover, .ticket-open:active, .ticket-open:focus{
+    background-color: #b700ff;
+}
+
+.ticket-solved, .ticket-solved:hover, .ticket-solved:active, .ticket-solved:focus{
+    background-color: #b700ff;
+}
+
+.training-notstarted, .training-notstarted:hover, .training-notstarted:active, .training-notstarted:focus{
+    background-color: #4b2a00;
+}
+
+.training-inprogress, .training-inprogress:hover, .training-inprogress:active, .training-inprogress:focus{
+    background-color: #4b2a00;
+}
+
+.training-completed, .training-completed:hover, .training-completed:active, .training-completed:focus{
+    background-color: #4b2a00;
+}
+
+.holiday-repetitive, .holiday-repetitive:hover, .holiday-repetitive:active, .holiday-repetitive:focus{
+    background-color: #ff8400;
+}
+
+.holiday-notrepetitive, .holiday-notrepetitive:hover, .holiday-notrepetitive:active, .holiday-notrepetitive:focus{
+    background-color: #ff8400;
+}
+
+.task-completed, .task-completed:hover, .task-completed:active, .task-completed:focus{
+    background-color: #00d9ff;
+}
+
+.task-unfinished, .task-unfinished:hover, .task-unfinished:active, .task-unfinished:focus{
+    background-color: #7ceafd;
+}
+
+@media (min-width: 900px) {
+    .modal-xl {
+        width: 90%;
+    }
+}
+
+@media (min-width: 900px) {
+    .modal-lg {
+        width: 65%;
+    }
+}
+
+.ck-widget__type-around{
+    display: none !important;
+}
+
+
+/*<style>*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/*</style>*/
+
+.text-truncate-tree-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.text-truncate-four-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.text-truncate-five-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.table-pgeda {
+    margin: -1rem -1rem;
+}
+
+.dataTables_filter, .dataTables_info, .dataTables_paginate, .dt-buttons{
+    margin: 1rem 1rem !important;
+}
+
+.dataTables_info{
+}
+
+.dataTables_paginate{
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding-top: 0.25em;
+}
+
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding-top: 0.755em;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-wid-bg::before {
+    background: #405189;
+    background: linear-gradient(to top, rgba(73, 73, 73, 0.92), rgba(93, 93, 93, 0.92));
+}
+
+.navbar-menu .navbar-nav .nav-link i {
+    font-size: 22px;
+}

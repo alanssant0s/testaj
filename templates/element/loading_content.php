@@ -1,0 +1,1 @@
+<div class="row justify-content-evenly"><div class="col-lg-4"><div class="mt-3"><div class="d-flex align-items-center mb-2"><div class="flex-grow-1"><span class="spinner-border flex-shrink-0" role="status"><span class="visually-hidden">Carregando...</span></span><span class="flex-grow-1 ms-2 align-items-center">Carregando...</span></span></div></div></div></div>
